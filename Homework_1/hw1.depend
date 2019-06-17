@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1530351181 source:c:\users\sila\desktop\hw1\boxoffice.cpp
+	<iostream>
+	"BoxOffice.h"
+
+1530351182 c:\users\sila\desktop\hw1\boxoffice.h
+	<iostream>
+	"Theater.h"
+
+1530351181 c:\users\sila\desktop\hw1\theater.h
+	<string>
+
+1530351181 source:c:\users\sila\desktop\hw1\main.cpp
+	<iostream>
+	<stdio.h>
+	"BoxOffice.h"
+
+1530351182 source:c:\users\sila\desktop\hw1\theater.cpp
+	<iostream>
+	<string>
+	"Theater.h"
+
