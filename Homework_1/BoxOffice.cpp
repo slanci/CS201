@@ -1,5 +1,4 @@
 #include <iostream>
-//#include "Theater.h"
 #include "BoxOffice.h"
 
 using namespace std;
@@ -40,11 +39,10 @@ void BoxOffice::operator=(const BoxOffice &right)
 {
     if(this == &right)
         cout << "Same BoxOffice." << endl; //self assignment
-    //if(right != NULL)
-    //{
-        delete[] theaterList; //clean up
-        delete[] reservationList; //clean up
-    //}
+   
+    delete[] theaterList; //clean up
+    delete[] reservationList; //clean up
+    
 
     tListSize = right.tListSize;
     resListSize = right.resListSize;
@@ -86,13 +84,8 @@ void BoxOffice::addTheater(int theaterId, string movieName,int numRows, int numS
 
         cout << "Theater " << theaterId << " (" << movieName << ") has been added." << endl;
 
-        //if(theaterList){
-            //delete[] theaterList;
-        //}
         theaterList = newList;
         tListSize++;
-
-
     }
     else if(!uniqueId)
     {
@@ -130,8 +123,6 @@ void BoxOffice::removeTheater(int theaterId){
                     {
                         theaterList[j - 1] = oldList[j];
                     }
-
-                    //delete[] oldList;
                 }
                 tListSize--;
 
@@ -171,7 +162,7 @@ void BoxOffice::showTheater(int theaterId){
             idExists = true;
             cout << "Theater " << theaterId << " (" << theaterList[index].getMovieName() << ") has " << theaterList[index].getAvailableSeatNum() << " available seats" << endl;
 
-            //SHOW SEATING POSITIONS WITH NUMBERS ANS CHARACTERS
+            //SHOW SEATING POSITIONS WITH NUMBERS AND CHARACTERS
         }
     }
 
