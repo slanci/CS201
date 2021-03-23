@@ -13,7 +13,7 @@ int main()
     R1.removeTheater(19);
     R1.showAllTheaters();
 
-    //AVAILABLE SEATS GORUNMUYO
+    //AVAILABLE SEATS FUNCTION  IS FAULTY
 
     return 0;
 }
