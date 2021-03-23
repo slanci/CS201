@@ -177,19 +177,13 @@ int main()
 	cout << "Execution took " << duration << " milliseconds." << endl;
 
 	cout << "\n";
-
 	cout << "Sorted with Solution1: \n";
-
-//	for (int i = 0; i < size; ++i)
-//	{
-//		cout << test1[i] << " ";
-//	}
 	cout << "\n";
 	cout << "\n";
 
 	cout << "Test 2 for Algorithm 2: \n";
 
-    cout << "\n";
+    	cout << "\n";
 	int output2[size];
 
 	 // Store the starting time
@@ -204,19 +198,13 @@ int main()
 	cout << "Execution took " << duration2 << " milliseconds." << endl;
 
 	cout << "\n";
-
 	cout << "Sorted with Solution2: \n";
-//
-//	for (int i = 0; i < size; ++i)
-//	{
-//		cout << test2[i] << " ";
-//	}
 	cout << "\n";
 	cout << "\n";
 
 	cout << "Test 3 for Algorithm 3: \n";
 
-    cout << "\n";
+    	cout << "\n";
 
 	int output3[size];
 
@@ -232,17 +220,8 @@ int main()
 	cout << "Execution took " << duration3 << " milliseconds." << endl;
 
 	cout << "\n";
-
 	cout << "Sorted with Solution3: \n";
-//
-//	for (int i = 0; i < size; ++i)
-//	{
-//		cout << test3[i] << " ";
-//	}
 	cout << "\n";
 
     return 0;
 }
-
-
-
